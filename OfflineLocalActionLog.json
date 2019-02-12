@@ -1,0 +1,212 @@
+2018-07-25 13:32:03.528163+0300 HybridContainer[1444:420770] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    FakeMenu,
+    show,
+    "<null>",
+    "<null>"
+)
+2018-07-25 13:32:03.543787+0300 HybridContainer[1444:420771] D:() SideBar: Will present menu.
+2018-07-25 13:32:03.548454+0300 HybridContainer[1444:414481] [Snapshotting] Snapshotting a view (0x10542ac00, _UIReplicantView) that has not been rendered at least once requires afterScreenUpdates:YES.
+2018-07-25 13:32:03.554689+0300 HybridContainer[1444:420661] D:() SideBar: Will present menu.
+2018-07-25 13:32:03.567208+0300 HybridContainer[1444:420770] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [FakeMenu, onBeforeShow, <null>, 0]
+2018-07-25 13:32:03.574152+0300 HybridContainer[1444:420661] D:() SideBar: Invalidating snapshot timer.
+2018-07-25 13:32:03.582919+0300 HybridContainer[1444:420774] D:() SideBar: Starting snapshot timer.
+2018-07-25 13:32:03.588734+0300 HybridContainer[1444:420770] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    FakeMenu,
+    notifyContentReady,
+    "<null>",
+    "<null>"
+)
+2018-07-25 13:32:03.672672+0300 HybridContainer[1444:420774] D:() SideBar: Content ready!
+2018-07-25 13:32:03.681108+0300 HybridContainer[1444:420770] D:() SideBar: Dismissing snapshot if present.
+2018-07-25 13:32:03.689022+0300 HybridContainer[1444:420661] D:() SideBar: Invalidating snapshot timer.
+2018-07-25 13:32:03.695889+0300 HybridContainer[1444:420770] D:() SideBar: Dismissing menu snapshot.
+2018-07-25 13:32:03.713453+0300 HybridContainer[1444:420770] D:() SideBar: Did present menu.
+2018-07-25 13:32:03.719377+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [FakeMenu, onAfterShow, <null>, 0]
+2018-07-25 13:32:04.089545+0300 HybridContainer[1444:420647] I:(offline.mb.field) JS: OfflineCheckSyncQueue.getQueuedActionsCount...
+2018-07-25 13:32:04.104015+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    PRPCClientStore,
+    checkInactivityTimeout,
+    453,
+    "<null>"
+)
+2018-07-25 13:32:04.112204+0300 HybridContainer[1444:420647] I:(offline.mb.field) JS: OfflineCheckSyncQueue.listActions...
+2018-07-25 13:32:04.119005+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [453, onSuccess, <null>]
+2018-07-25 13:32:04.125873+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    PRPCClientStore,
+    checkInactivityTimeout,
+    454,
+    "<null>"
+)
+2018-07-25 13:32:04.131865+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [454, onSuccess, <null>]
+2018-07-25 13:32:04.137855+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    SQLStorage,
+    beginTransaction,
+    455,
+        (
+        1,
+        91
+    )
+)
+2018-07-25 13:32:04.143558+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [455, onSuccess, <null>]
+2018-07-25 13:32:04.149444+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    SQLStorage,
+    executeSql,
+    456,
+        (
+        1,
+        91,
+        "SELECT COUNT(*) as actionscnt from queue",
+        "<null>",
+        0,
+        "1.0"
+    )
+)
+2018-07-25 13:32:04.155351+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [456, onSuccess, {
+    insertId = "-1";
+    rows =     (
+                {
+            actionscnt = 0;
+        }
+    );
+    rowsAffected = 0;
+}]
+2018-07-25 13:32:04.160316+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    SQLStorage,
+    endTransaction,
+    457,
+        (
+        1,
+        91,
+        1
+    )
+)
+2018-07-25 13:32:04.165329+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [457, onSuccess, <null>]
+2018-07-25 13:32:04.170284+0300 HybridContainer[1444:420771] I:(offline.mb.field) JS: getQueuedActionsCount=0
+2018-07-25 13:32:04.175182+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    SQLStorage,
+    beginTransaction,
+    458,
+        (
+        1,
+        92
+    )
+)
+2018-07-25 13:32:04.180264+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [458, onSuccess, <null>]
+2018-07-25 13:32:04.185204+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    SQLStorage,
+    executeSql,
+    459,
+        (
+        1,
+        92,
+        "SELECT id, metadata FROM queue ORDER BY id ASC",
+        "<null>",
+        0,
+        "1.0"
+    )
+)
+2018-07-25 13:32:04.190209+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [459, onSuccess, {
+    insertId = "-1";
+    rows =     (
+    );
+    rowsAffected = 0;
+}]
+2018-07-25 13:32:04.195179+0300 HybridContainer[1444:420661] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    SQLStorage,
+    endTransaction,
+    460,
+        (
+        1,
+        92,
+        1
+    )
+)
+2018-07-25 13:32:04.200268+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [460, onSuccess, <null>]
+2018-07-25 13:32:04.205159+0300 HybridContainer[1444:420661] I:(offline.mb.field) JS: listActions:
+2018-07-25 13:32:06.300726+0300 HybridContainer[1444:420661] I:(offline.mb.field) JS: Fetching template for PEGACRM-PORTAL-SFA-SALESREP!MODALDIALOGTEMPLATENOCROSS from Client Store.
+2018-07-25 13:32:06.312221+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    PRPCClientStore,
+    checkInactivityTimeout,
+    461,
+    "<null>"
+)
+2018-07-25 13:32:06.319040+0300 HybridContainer[1444:420647] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [461, onSuccess, <null>]
+2018-07-25 13:32:06.327595+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    PRPCClientStore,
+    batchExecute,
+    462,
+        (
+                {
+            action = getItems;
+            handle = "PEGACRM-PORTAL-SFA-SALESREP!MODALDIALOGTEMPLATENOCROSS";
+            type = section;
+        }
+    )
+)
+2018-07-25 13:32:06.334716+0300 HybridContainer[1444:420774] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [462, onSuccess, <Swift._SwiftDeferredNSArray 0x1c422cd00>(
+<__NSArrayM 0x1c4444ce0>(
+{
+    content = "<div data-template-name='pxSection' data-template-instance-id='1532513852233000' CLASS='template-root-marker'><div id='1532513852233001' style='display:none'><table role='presentation' class='customTableBoxStyle' cellspacing='0' cellpadding='0' id='EXPAND-OUTERFRAME' PARAM_NAME=\"EXPANDEDSubSectionModalDialogTemplateNoCrossB\"><tr><td><div role =\"alert\" class=\"hd\" id=\"modaldialog_hd\">  \n\t<span id=\"modaldialog_hd_title\" style=\"padding: 0px\">               </span>\n\t<button title='' onclick=\"displayHelp(event)\" id=\"ModalHelpButton\" name=\"ModalHelpButton\" class=\"pi pi-help contextual-help\" style=\"color:#207DC8;display:none;position:absolute;margin-left:2px;top:2px;\" ></button>\t\n</div><div section_index='1' class=' customExpandInnerDivStyle'><table role='presentation'   cellpadding='0' c
+2018-07-25 13:32:06.347236+0300 HybridContainer[1444:420774] I:(offline.mb.field) JS: Template fetched successfully.
+2018-07-25 13:32:06.355196+0300 HybridContainer[1444:420771] I:(offline.mb.field) JS: Invoking processActionModal_Success method.
+2018-07-25 13:32:06.379978+0300 HybridContainer[1444:420771] I:(offline.mb.field) JS: Invoking displayFlowAction method. flowactionkey - ConfirmCreateMeetNoPlan, refObjClass - PegaCRM-Portal-SFA-SalesRep, callback - object.
+2018-07-25 13:32:06.385766+0300 HybridContainer[1444:420774] I:(offline.mb.field) JS: p.o.rc:_get from cache failed for flowactionrule, PEGACRM-PORTAL-SFA-SALESREP!CONFIRMCREATEMEETNOPLAN
+2018-07-25 13:32:06.390492+0300 HybridContainer[1444:420661] I:(offline.mb.field) JS: p.o.rc:read from cache: flowaction PegaCRM-Portal-SFA-SalesRep!ConfirmCreateMeetNoPlan, type: object
+2018-07-25 13:32:06.401040+0300 HybridContainer[1444:420771] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    FakeMenu,
+    setPresentsWithGesture,
+    "<null>",
+    0
+)
+2018-07-25 13:32:06.406558+0300 HybridContainer[1444:420770] D:() SideBar: Updating presentsWithGesture to false
+2018-07-25 13:32:06.412574+0300 HybridContainer[1444:420647] I:(offline.mb.field) JS: clientstorehelper.getRuleInstances.successCB_callback() result=
+2018-07-25 13:32:06.417719+0300 HybridContainer[1444:420770] I:(offline.mb.field) JS: p.o.rc:read from cache: section PEGACRM-PORTAL-SFA-SALESREP!CONFIRMCREATEMEETNOPLAN, type: object
+2018-07-25 13:32:06.423688+0300 HybridContainer[1444:420647] I:(offline.mb.field) JS: clientstorehelper.getRuleInstances.successCB_callback() result=
+2018-07-25 13:32:06.441426+0300 HybridContainer[1444:420647] I:(offline.mb.field) JS: displayFlowAction success callback invoked.
+2018-07-25 13:32:06.446828+0300 HybridContainer[1444:420796] I:(offline.mb.field) JS: Invoking setHeaderLabel method. meta_data_div_id - #FAMETAPegaCRM-Portal-SFA-SalesRepConfirmCreateMeetNoPlan, modalHeaderTitle - Новая встреча вне плана.
+2018-07-25 13:32:06.451697+0300 HybridContainer[1444:420774] I:(offline.mb.field) JS: Making the modal visible.
+2018-07-25 13:32:08.741779+0300 HybridContainer[1444:420774] D:() SideBar: Will dismiss menu.
+2018-07-25 13:32:08.759275+0300 HybridContainer[1444:420796] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [FakeMenu, onBeforeHide, <null>, 0]
+2018-07-25 13:32:08.892760+0300 HybridContainer[1444:420774] D:() SideBar: Did dismiss menu.
+2018-07-25 13:32:08.911057+0300 HybridContainer[1444:420796] D:() SideBar: Invalidating snapshot timer.
+2018-07-25 13:32:08.934898+0300 HybridContainer[1444:420770] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Will send message to JavaScript:
+ [FakeMenu, onAfterHide, <null>, 0]
+2018-07-25 13:32:08.940320+0300 HybridContainer[1444:420774] D:() SideBar: Invalidating snapshot timer.
+2018-07-25 13:32:08.957607+0300 HybridContainer[1444:420661] D:() SideBar: Starting snapshot timer.
+2018-07-25 13:32:08.964029+0300 HybridContainer[1444:420774] V:(offline.mb.field) <PMBase.JavaScriptBridgeScript: 0x1c0256440>: Did receive message from JavaScript:
+ (
+    FakeMenu,
+    notifyContentReady,
+    "<null>",
+    "<null>"
+)
+2018-07-25 13:32:09.060790+0300 HybridContainer[1444:420771] D:() SideBar: Content ready!
+2018-07-25 13:32:09.068167+0300 HybridContainer[1444:420774] D:() SideBar: Dismissing snapshot if present.
+2018-07-25 13:32:09.075318+0300 HybridContainer[1444:420771] D:() SideBar: Invalidating snapshot timer.
+2018-07-25 13:32:09.082683+0300 HybridContainer[1444:420774] D:() SideBar: Dismissing content snapshot.
